@@ -1,0 +1,23 @@
+﻿<Window x:Class="DemoSplashWPF.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoSplashWPF"
+        mc:Ignorable="d"
+        Title="Splash" Height="500" Width="500" Icon="Images/giraffe-icon.png" BorderBrush="Transparent" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Background="Transparent">
+    <Grid MouseLeftButtonDown="move">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/book_PNG2117.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Height="79" Margin="142,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" Foreground="White" RenderTransformOrigin="0.5,0.5" MouseDown="Close">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="6"/>
+                    <RotateTransform Angle="16.571"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Joe Nguyen"/><LineBreak/><Run Text="Siemens"/><LineBreak/><Run Text="2017"/></TextBlock>
+    </Grid>
+</Window>

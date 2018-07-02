@@ -10,14 +10,14 @@
         <Grid.Background>
             <ImageBrush ImageSource="Images/book_PNG2117.png"/>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Left" Height="79" Margin="142,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" Foreground="White" RenderTransformOrigin="0.5,0.5" MouseDown="Close">
+        <TextBlock HorizontalAlignment="Left" Height="79" Margin="142,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" Foreground="White" RenderTransformOrigin="0.5,0.5" MouseDown="Close"> <!--Click textbox to close-->
             <TextBlock.RenderTransform>
                 <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="6"/>
+                    <ScaleTransform ScaleX="1.002"/>
+                    <SkewTransform AngleX="6" AngleY="1.027"/>
                     <RotateTransform Angle="16.571"/>
-                    <TranslateTransform/>
+                    <TranslateTransform X="-0.137" Y="0.737"/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Text="Joe Nguyen"/><LineBreak/><Run Text="Siemens"/><LineBreak/><Run Text="2017"/></TextBlock>
+            </TextBlock.RenderTransform><Run Text="Joe Nguyen"/><LineBreak/><Run Text="Innovation"/><LineBreak/><Run Text="2018"/></TextBlock><!--TextBlock-->
     </Grid>
 </Window>
